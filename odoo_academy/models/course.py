@@ -17,4 +17,6 @@ class Course(models.Model):
                             copy=False)
     
     active = fields.Boolean(string='Active', default=True)
-    
+
+    base_price = fields.Float(string="Base Price", default=0.00)
+    additional_fee = fields.Float(string="Additional Fee", default=0.00)
