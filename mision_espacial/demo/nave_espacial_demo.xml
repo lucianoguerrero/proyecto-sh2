@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+<!--     <data noupdate="1"> -->
+        <record model="mision_espacial.nave_espacial" id="nave_espacial_100">
+            <field name="name">Nave x</field>
+            <field name="combustible">hidracina</field>
+            <field name="tipo_barco">vehículos lanzadera</field>
+            <field name="n_pasajeros">100</field>
+        </record>
+        
+         <record model="mision_espacial.nave_espacial" id="nave_espacial_101">
+            <field name="name">Nave y</field>
+            <field name="combustible">tetróxido de nitrógeno</field>
+            <field name="tipo_barco">naves no tripuladas o robóticas</field>
+            <field name="n_pasajeros">300</field>
+        </record>
+    
+         <record model="mision_espacial.nave_espacial" id="nave_espacial_102">
+            <field name="name">Nave z</field>
+            <field name="combustible">hidracina</field>
+            <field name="tipo_barco">naves espaciales tripuladas</field>
+            <field name="n_pasajeros">10</field>
+        </record>
+<!--     </data> -->
+</odoo>

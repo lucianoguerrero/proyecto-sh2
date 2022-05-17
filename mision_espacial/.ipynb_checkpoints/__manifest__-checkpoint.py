@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Odoo Academy',
+    'name': 'Odoo Misión espacial',
     
-    'sumary': """Academy app to manage Training""",
+    'sumary': """App para llegar a la luna""",
     
     'description':"""
-        Academy module to manage Training:
-        -Courses
-        -Sessions
-        -Attendees
+        Misión espacial el modulo:
+        -Nave espacial
+        -Tripulación
     """,
     
-    'author': 'Odoo',
+    'author': 'Luciano guerrero',
     
     'website': 'https://www.odoo.com',
     
@@ -22,17 +21,17 @@
     'depends':['base'],
     
     'data': [
-        'security/academy_security.xml',
+        'security/mision_espacial_security.xml',
         'security/ir.model.access.csv',
         
-        'views/academy_menuitems.xml',
-        'views/course_views.xml',
-        'views/session_views.xml',
-        #'demo/academy_demo.xml',
+        'views/mision_espacial_menuitems.xml',
+        #'views/course_views.xml',
+        #'views/session_views.xml',
+        
     ],
     
     'demo': [
-        'demo/academy_demo.xml',
+        'demo/nave_espacial_demo.xml',
     ],
     
 }

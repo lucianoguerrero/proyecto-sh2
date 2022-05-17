@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="nave_espacial_list_action">
+            <field name="name">Nave espacial</field>
+            <field name="res_model">mision_espacial.nave_espacial</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create the first Nave espacial
+                </p>
+            </field>
+        </record>
+        
+        
+        <menuitem name="Odoo Mision espacial"
+                  id="menu_mision_espacial"
+                  sequence="1" web_icon="mision_espacial,static/description/icon.png"/>
+        
+        <menuitem name="Mision espacial"
+                  id="menu_mision_espacial_sub"
+                  parent="menu_mision_espacial"
+                  sequence="2"/>
+        
+        <menuitem name="Nave espacial"
+                  id="menu_mision_espacial_nave_espacial"
+                  parent="menu_mision_espacial_sub"
+                  sequence="3" action="nave_espacial_list_action"/>
+        
+        
+    </data>
+</odoo>
