@@ -25,7 +25,7 @@
         'security/ir.model.access.csv',
         
         'views/mision_espacial_menuitems.xml',
-        #'views/course_views.xml',
+        'views/nave_espacial_views.xml',
         #'views/session_views.xml',
         
     ],
@@ -34,4 +34,5 @@
         'demo/nave_espacial_demo.xml',
     ],
     
+    'license':'OPL-1',
 }

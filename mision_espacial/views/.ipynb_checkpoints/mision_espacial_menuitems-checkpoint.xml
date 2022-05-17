@@ -17,7 +17,7 @@
                   id="menu_mision_espacial"
                   sequence="1" web_icon="mision_espacial,static/description/icon.png"/>
         
-        <menuitem name="Mision espacial"
+        <menuitem name="Espacio"
                   id="menu_mision_espacial_sub"
                   parent="menu_mision_espacial"
                   sequence="2"/>

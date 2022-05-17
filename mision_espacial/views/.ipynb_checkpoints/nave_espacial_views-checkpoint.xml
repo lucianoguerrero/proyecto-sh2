@@ -1,56 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record id="course_view_form" model="ir.ui.view">
-            <field name="name">academy.course.form</field>
-            <field name="model">academy.course</field>
+        <record id="nave_espacial_view_form" model="ir.ui.view">
+            <field name="name">mision_espacial.nave_espacial.form</field>
+            <field name="model">mision_espacial.nave_espacial</field>
             <field name="arch" type="xml">
-                <form string="Course Form">
+                <form string="Nave espacial Form">
                     <sheet>
                         <h1><field name="name"/></h1>
                         <group>
                             <group>
                                 <field name="active"/>
-                                <field name="level"/>
+                                <field name="combustible"/>
                             </group>
                             <group>
-                                <field name="base_price"/>
-                                <field name="additional_fee"/>
-                                <field name="total_price" force_save="1"/>
+                                <field name="tipo_barco"/>
+                                <field name="n_pasajeros"/>
                             </group>
                         </group>
-                        <notebook>
-                            <page string="Description">
-                                <field name="description"/>
-                            </page>
-                             <page string="Sessions">
-                                <field name="session_ids"/>
-                            </page>
-                        </notebook>
                     </sheet>
                 </form>
             </field>
         </record>
         
-        <record id="course_view_list" model="ir.ui.view">
-            <field name="name">academy.course.list</field>
-            <field name="model">academy.course</field>
+        <record id="nave_espacial_view_list" model="ir.ui.view">
+            <field name="name">mision_espacial.nave_espacial.list</field>
+            <field name="model">mision_espacial.nave_espacial</field>
             <field name="arch" type="xml">
                 <tree string="Course List">
                     <field name="name"/>
-                    <field name="description"/>
-                    <field name="level"/>
+                    <field name="tipo_barco"/>
+                    <field name="n_pasajeros"/>
                 </tree>
             </field>
         </record>
         
-        <record id="course_view_search" model="ir.ui.view">
-            <field name="name">academy.course.search</field>
-            <field name="model">academy.course</field>
+        <record id="nave_espacial_view_search" model="ir.ui.view">
+            <field name="name">mision_espacial.nave_espacial.search</field>
+            <field name="model">mision_espacial.nave_espacial</field>
             <field name="arch" type="xml">
                 <search>
                     <field name="name"/>
-                    <field name="description"/>
+                    <field name="combustible"/>
                 </search>
             </field>
         </record>
