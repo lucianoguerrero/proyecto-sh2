@@ -13,7 +13,7 @@ class Libro(models.Model):
     autores = fields.Char(string='Autores')
     editores = fields.Char(string='Editores')
     ano_edicion = fields.Date(string='Año edición')
-    isbn = fields.Integer(string='ISBN')
+    isbn = fields.Char(string='ISBN')
     
     genero = fields.Selection(string='Género',
                              selection=[('aventuras','Aventuras'),

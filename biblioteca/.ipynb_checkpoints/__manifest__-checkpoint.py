@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Odoo Misión espacial',
+    'name': 'Odoo biblioteca',
     
-    'sumary': """App para llegar a la luna""",
+    'sumary': """App para administrar libros y clientes""",
     
     'description':"""
-        Misión espacial el modulo:
-        -Nave espacial
-        -Tripulación
+        Biblioteca el modulo:
+        -Libros
+        -Clientes
     """,
     
     'author': 'Luciano guerrero',
@@ -21,17 +21,17 @@
     'depends':['base'],
     
     'data': [
-        #'security/academy_security.xml',
-        #'security/ir.model.access.csv',
+        'security/biblioteca_security.xml',
+        'security/ir.model.access.csv',
         
-        #'views/academy_menuitems.xml',
+        'views/biblioteca_menuitems.xml',
         #'views/course_views.xml',
         #'views/session_views.xml',
         
     ],
     
     'demo': [
-        #'demo/academy_demo.xml',
+        'demo/libro_demo.xml',
     ],
     
 }

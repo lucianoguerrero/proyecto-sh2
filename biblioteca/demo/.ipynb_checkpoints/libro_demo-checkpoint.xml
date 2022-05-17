@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+<!--     <data noupdate="1"> -->
+        <record model="biblioteca.libro" id="libro_100">
+            <field name="name">Libro 1</field>
+            <field name="description">descripción libro 1</field>
+            <field name="autores">autor 1</field>
+            <field name="editores">editor 1</field>
+            <field name="ano_edicion">2022-05-01</field>
+            <field name="isbn">libro-1</field>
+            <field name="genero">aventuras</field>
+        </record>
+        
+         <record model="biblioteca.libro" id="libro_101">
+            <field name="name">Libro 2</field>
+            <field name="description">descripción libro 2</field>
+            <field name="autores">autor 2</field>
+            <field name="editores">editor 2</field>
+            <field name="ano_edicion">2020-01-01</field>
+            <field name="isbn">libro-2</field>
+            <field name="genero">gótica</field>
+        </record>
+    
+         <record  model="biblioteca.libro" id="libro_102">
+            <field name="name">Libro 3</field>
+            <field name="description">descripción libro 3</field>
+            <field name="autores">autor 3</field>
+            <field name="editores">editor 3</field>
+            <field name="ano_edicion">2021-10-01</field>
+            <field name="isbn">libro-3</field>
+            <field name="genero">distópica</field>
+        </record>
+        
+        <record  model="biblioteca.libro" id="libro_103">
+            <field name="name">Libro 4</field>
+            <field name="description">descripción libro 4</field>
+            <field name="autores">autor 1</field>
+            <field name="editores">editor 4</field>
+            <field name="ano_edicion">2019-10-01</field>
+            <field name="isbn">libro-4</field>
+            <field name="genero">fantástica</field>
+        </record>
+        
+        <record  model="biblioteca.libro" id="libro_104">
+            <field name="name">Libro 5</field>
+            <field name="description">descripción libro 5</field>
+            <field name="autores">autor 4</field>
+            <field name="editores">editor 5</field>
+            <field name="ano_edicion">2022-02-10</field>
+            <field name="isbn">libro-5</field>
+            <field name="genero">cuentos de hadas</field>
+        </record>
+<!--     </data> -->
+</odoo>
