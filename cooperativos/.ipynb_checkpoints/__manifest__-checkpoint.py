@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Odoo biblioteca',
+    'name': 'Odoo Cooperativos',
     
-    'sumary': """App para administrar libros y clientes""",
+    'sumary': """App para organizar a voluntarios y tienda""",
     
     'description':"""
-        Biblioteca el modulo:
-        -Libros
-        -Clientes
+        Cooperativos el modulo:
+        -Organiza voluntarios
+        -Tiendas
     """,
     
     'author': 'Luciano guerrero',
@@ -21,17 +21,17 @@
     'depends':['base'],
     
     'data': [
-        #'security/academy_security.xml',
-        #'security/ir.model.access.csv',
+        'security/cooperativos_security.xml',
+        'security/ir.model.access.csv',
         
-        #'views/academy_menuitems.xml',
-        #'views/course_views.xml',
+        'views/cooperativos_menuitems.xml',
+        'views/tarea_views.xml',
         #'views/session_views.xml',
         
     ],
     
     'demo': [
-        #'demo/academy_demo.xml',
+        'demo/cooperativo_demo.xml',
     ],
     
 }

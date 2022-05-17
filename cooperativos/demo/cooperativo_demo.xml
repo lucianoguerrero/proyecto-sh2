@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+<!--     <data noupdate="1"> -->
+        <record model="cooperativos.tarea" id="tarea_100">
+            <field name="name">Tarea 1</field>
+            <field name="description">descripción tarea 1</field>
+            <field name="tipo_tarea">estudiar</field>
+            <field name="hora_inicio">2022-05-17 09:00:05</field>
+            <field name="hora_final">2022-05-17 10:30:00</field>
+        </record>
+        
+        <record model="cooperativos.tarea" id="tarea_102">
+            <field name="name">Tarea 2</field>
+            <field name="description">descripción tarea 2</field>
+            <field name="tipo_tarea">estudiar</field>
+            <field name="hora_inicio">2022-05-17 10:30:05</field>
+            <field name="hora_final">2022-05-17 11:00:00</field>
+        </record>
+    
+        <record model="cooperativos.tarea" id="tarea_103">
+            <field name="name">Tarea 3</field>
+            <field name="description">descripción tarea 3</field>
+            <field name="tipo_tarea">tomar en préstamo libros o devolverlos</field>
+            <field name="hora_inicio">2022-05-17 10:30:05</field>
+            <field name="hora_final">2022-05-20 10:30:05</field>
+        </record>
+        
+        <record model="cooperativos.tarea" id="tarea_104">
+            <field name="name">Tarea 4</field>
+            <field name="description">descripción tarea 4</field>
+            <field name="tipo_tarea">tomar en préstamo libros o devolverlos</field>
+            <field name="hora_inicio">2022-05-17 12:30</field>
+            <field name="hora_final">2022-05-21 12:30</field>
+        </record>
+<!--     </data> -->
+</odoo>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="tarea_list_action">
+            <field name="name">Tarea</field>
+            <field name="res_model">cooperativos.tarea</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create the first Tarea
+                </p>
+            </field>
+        </record>
+        
+        
+        <menuitem name="Odoo Voluntarios Cooperativos"
+                  id="menu_cooperativos"
+                  sequence="1" web_icon="cooperativos,static/description/icon.png"/>
+        
+        <menuitem name="Voluntarios Cooperativos"
+                  id="menu_cooperativos_sub"
+                  parent="menu_cooperativos"
+                  sequence="2"/>
+        
+        <menuitem name="Tarea"
+                  id="menu_tarea"
+                  parent="menu_cooperativos_sub"
+                  sequence="3" action="tarea_list_action"/>
+        
+        
+    </data>
+</odoo>
