@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <record model="ir.actions.act_window" id="tarea_list_action">
-            <field name="name">Tarea</field>
+            <field name="name">Tareas</field>
             <field name="res_model">cooperativos.tarea</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -17,12 +17,12 @@
                   id="menu_cooperativos"
                   sequence="1" web_icon="cooperativos,static/description/icon.png"/>
         
-        <menuitem name="Voluntarios Cooperativos"
+        <menuitem name="Coop"
                   id="menu_cooperativos_sub"
                   parent="menu_cooperativos"
                   sequence="2"/>
         
-        <menuitem name="Tarea"
+        <menuitem name="Tareas"
                   id="menu_tarea"
                   parent="menu_cooperativos_sub"
                   sequence="3" action="tarea_list_action"/>
