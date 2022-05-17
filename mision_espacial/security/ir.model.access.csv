@@ -1,3 +1,4 @@
 id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
 nave_espacial_admin,nave espacial admin,model_mision_espacial_nave_espacial,group_nave_espacial_admin,1,1,1,1
+nave_espacial_miembro,nave_espacial miembro tripulacion,model_mision_espacial_nave_espacial,,1,1,1,0
 nave_espacial_read_all,nave_espacial read all,model_mision_espacial_nave_espacial,,1,0,0,0
